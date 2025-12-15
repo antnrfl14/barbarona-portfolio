@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anton Rafael B. Barbarona - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* Additional inline styles for About section */
+        #about {
+            padding: 80px 20px;
+            background-color: #f9f9f9;
+        }
+        .about-content {
+            max-width: 1100px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            gap: 50px;
+            flex-wrap: wrap;
+        }
+        .about-text {
+            flex: 1;
+            min-width: 300px;
+        }
+        .about-text h2 {
+            font-size: 2.8rem;
+            color: #2c3e50;
+            margin-bottom: 30px;
+        }
+        .about-text p {
+            font-size: 1.1rem;
+            color: #555;
+            margin-bottom: 20px;
+        }
+        .about-image {
+            flex: 1;
+            min-width: 300px;
+            text-align: center;
+        }
+        .about-image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+            transition: transform 0.4s ease;
+        }
+        .about-image img:hover {
+            transform: scale(1.05);
+        }
+        @media (max-width: 768px) {
+            .about-content {
+                flex-direction: column;
+                text-align: center;
+            }
+            .about-text h2 {
+                font-size: 2.4rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Anton Rafael B. Barbarona</div>
+            <ul class="nav-links">
+                <li><a href="#intro">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="visual-diary.html">Visual Diary</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#reflections">Reflections</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="mobile-menu">
+                <div></div><div></div><div></div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="intro">
+        <div class="intro-content">
+            <h1>Hello, I'm Anton Rafael</h1>
+            <p>Information Technology Student | Learner | Explorer</p>
+            <p>Welcome to my personal portfolio</p>
+            <a href="#about" class="btn">Explore More</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>I am a passionate Information Technology student with a strong interest in software development, cybersecurity, networking, and emerging technologies like virtual reality and data analytics.</p>
+                <p>Through hands-on experiences such as educational tours, company visits, and personal projects, I continue to grow and prepare for a future in the IT industry.</p>
+            </div>
+            <div class="about-image">
+                <!-- New photo added here -->
+                <img src="images/about-me.jpg" alt="Anton Rafael B. Barbarona smiling in a forest setting during the educational tour">
+            </div>
+        </div>
+    </section>
+
+    <section id="visual-diary">
+        <h2>Visual Diary</h2>
+        <div class="visual-diary-intro">
+            <p>A collection of moments captured during the Educational Tour & Summit in Cebu and Bohol (November 12–15, 2025). From company visits and technical sessions to scenic adventures and team bonding — these photos tell the story of an unforgettable learning journey.</p>
+            <a href="visual-diary.html" class="btn">View Full Visual Diary →</a>
+        </div>
+        <div class="gallery preview-gallery">
+            <div class="gallery-item">
+                <img src="images/visual-diary/1.jpg" alt="Group photo in hotel lobby with Christmas tree">
+            </div>
+            <div class="gallery-item">
+                <img src="images/visual-diary/3.jpg" alt="Group at Chocolate Hills, Bohol">
+            </div>
+            <div class="gallery-item">
+                <img src="images/visual-diary/8.jpg" alt="Party bus with colorful lights">
+            </div>
+        </div>
+    </section>
+
+    <section id="certificates">
+        <h2>Certificates & Achievements</h2>
+        <div class="achievements certificate-single">
+            <div class="achievement-card certificate-card">
+                <h3>Certificate of Completion</h3>
+                <p><strong>Educational Tour in Cebu and Bohol</strong></p>
+                <p><strong>Issued:</strong> November 15, 2025</p>
+                <p><strong>Organized by:</strong> World of Adventures Travel and Tours</p>
+                <p>Awarded for active participation and successful completion of company visits to leading IT firms in Cebu and Bohol.</p>
+                <img src="images/certificate.jpg" alt="Certificate of Completion - Educational Tour Cebu & Bohol" class="certificate-image">
+            </div>
+        </div>
+    </section>
+
+    <section id="reflections" style="background: var(--light);">
+        <h2>Reflections & Learnings</h2>
+        <div class="reflections-content">
+            <p>The Educational Tour in Cebu and Bohol (November 12–15, 2025) was an incredible journey that exposed me to real-world IT innovation, entrepreneurship, cybersecurity, virtual reality, emergency systems, and data analytics.</p>
+            <p>Each company visit inspired me to think bigger, work smarter, and value collaboration, preparedness, and continuous learning.</p>
+            <p>Below are my handwritten reflection notes from each visit, in chronological order, followed by my overall tour feedback.</p>
+            <blockquote>"The best way to predict the future is to create it." — Peter Drucker</blockquote>
+        </div>
+
+        <div class="gallery reflections-gallery">
+            <div class="gallery-item">
+                <img src="images/reflections/up-cebu-init.jpg" alt="Handwritten notes from UP Cebu Business Incubator for IT">
+                <p><strong>Day 1: UP Cebu Business Incubator for IT (CeBu InIT)</strong><br>Supporting tech startups with mentorship, resources, and innovation</p>
+            </div>
+            <div class="gallery-item">
+                <img src="images/reflections/rivan-it-cebu.jpg" alt="Handwritten notes from Rivan IT Cebu">
+                <p><strong>Day 2: Rivan IT Cebu</strong><br>Cybersecurity training, professional development, and skill enhancement</p>
+            </div>
+            <div class="gallery-item">
+                <img src="images/reflections/mata-technologies.jpg" alt="Handwritten notes from Mata Technologies">
+                <p><strong>Day 3: Mata Technologies, Inc.</strong><br>Virtual reality applications in tourism and real estate</p>
+            </div>
+            <div class="gallery-item">
+                <img src="images/reflections/tarsier-117.jpg" alt="Handwritten notes from T.A.R.S.I.E.R. 117">
+                <p><strong>Day 4: T.A.R.S.I.E.R. 117 (Bohol)</strong><br>Emergency response, disaster management, and public safety</p>
+            </div>
+            <div class="gallery-item">
+                <img src="images/reflections/dynata-philippines.jpg" alt="Handwritten notes from Dynata Philippines">
+                <p><strong>Day 5: Dynata Philippines, Inc.</strong><br>Marketing insights, data automation, and workplace safety</p>
+            </div>
+            <div class="gallery-item">
+                <img src="images/reflections/impression-sheet.jpg" alt="Overall tour impression and feedback sheet">
+                <p><strong>Overall Tour Experience</strong><br>Excellent organization, accommodations, meals, and learning opportunities</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <div class="contact-info">
+            <div class="contact-card">
+                <i class="fas fa-map-marker-alt"></i>
+                <h3>Location</h3>
+                <p>Panabo, Davao del Norte, Philippines</p>
+                <div class="map-container">
+                    <iframe
+                        src="https://maps.google.com/maps?q=Panabo,Davao+del+Norte,Philippines&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                        width="100%"
+                        height="300"
+                        frameborder="0"
+                        style="border:0; border-radius: 10px;"
+                        allowfullscreen=""
+                        loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+            <div class="contact-card">
+                <i class="fas fa-phone-alt"></i>
+                <h3>Phone</h3>
+                <p><a href="tel:+639087052548">0908 705 2548</a></p>
+            </div>
+            <div class="contact-card">
+                <i class="fas fa-envelope"></i>
+                <h3>Email</h3>
+                <p><a href="mailto:antonrafael.barbarona@hcdc.edu.ph">antonrafael.barbarona@hcdc.edu.ph</a></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Anton Rafael B. Barbarona. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
